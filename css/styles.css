@@ -91,15 +91,19 @@ font-size: 16px;
 line-height: 1.5;
 color: var(--iris);
 background-color: #f4f4fd;
-
 }
+.button:focus,
+.button:hover,
 .portfolio-button:hover,
 .portfolio-button:focus,
 .portfolio-button-last:focus,
-.portfolio-button-last:hover{
+.portfolio-button-last:hover
+{
 color: var(--white);
 background-color: var(--iris);
 }
+
+
 .portfolio-button-last{
  font-family:'Roboto',sans-serif;
  font-weight: 500;
