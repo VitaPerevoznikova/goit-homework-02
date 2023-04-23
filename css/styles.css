@@ -12,7 +12,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--slate);
+  background-color: #ffffff;
 }
 :root {
   --naviblue: #2e2f42;
@@ -36,9 +36,9 @@ body {
 .web-logo {
   color: var(--iris);
 }
+
 /* Header Navigation */
 .menu-link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -47,7 +47,6 @@ body {
 }
 /* Adress  */
 .contacts {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -57,8 +56,10 @@ body {
 /* Main menu  */
 
 /* Section 1 */
+.hero{
+background-color: var(--naviblue);
+}
 .hero-tex {
-  font-family: 'Roboto' sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -67,7 +68,6 @@ body {
 }
 
 .button-hero {
-  font-family: 'Roboto' sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -80,19 +80,21 @@ body {
 .button-hero:focus {
   color: var(--iris);
   background-color: #ffffff;
-  
 }
 .portfolio-button {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--iris);
-  background-color: #f4f4fd;
+  background-color:var(--cloud);
+  
+}
+/* Section 4 */
+.section-4{
+background-color: var(--cloud);
 }
 /* sections  */
 .suptitle {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -100,7 +102,6 @@ body {
   color: var(--naviblue);
 }
 .section-description {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -108,7 +109,6 @@ body {
   color: var(--slate);
 }
 .second-header {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -116,12 +116,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--naviblue);
 }
+
 /* footer */
 .footer-description {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
+  }
+.footer{
+background-color: var(--naviblue);
 }
