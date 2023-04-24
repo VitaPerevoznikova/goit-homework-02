@@ -71,15 +71,10 @@ background-color: var(--naviblue);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--white);
-  background: var(--iris);
+  color: var(--iris);
+  background: var(--cloud);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 15);
   border-radius: 4px;
-}
-.button-hero:hover,
-.button-hero:focus {
-  color: var(--iris);
-  background-color: #ffffff;
 }
 .portfolio-button {
   font-weight: 500;
