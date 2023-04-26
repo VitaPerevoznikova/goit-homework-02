@@ -1,14 +1,18 @@
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+
 .links:hover,
 .links:focus {
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: #4d5ae5;
 }
+  .none-header{
+    opacity: 0;
+  }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -34,7 +38,7 @@ body {
   line-height: 1.16;
 }
 .web-logo {
-  color: var(--iris);
+  color: #4d5ae5;
 }
 
 /* Header Navigation */
@@ -42,51 +46,71 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--naviblue);
+  color:#2e2f42;
   letter-spacing: 0.02em;
 }
 /* Adress  */
-.contacts {
+.header-contacts { 
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #2e2f42;
+  
+
 }
 /* Main menu  */
 
 /* Section 1 */
-.hero{
-background-color: var(--naviblue);
+.hero {
+ background-color: #2e2f42; 
+
 }
 .hero-tex {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: var(--white);
+  color: #ffffff;
+  
 }
 
 .button-hero {
+
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--iris);
-  background: var(--cloud);
+  color: #ffffff;
+  background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 15);
   border-radius: 4px;
+  cursor: pointer;
+}
+.button-hero:focus,
+.button-hero:active {
+color: #ffffff;
+background-color: #404bbf;
+
 }
 .portfolio-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--iris);
-  background-color:var(--cloud);
-  
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
+.portfolio-button:focus,
+.portfolio-button:hover {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
 /* Section 4 */
-.section-4{
-background-color: var(--cloud);
+.section-four {
+  background-color: #f4f4fd;
 }
 /* sections  */
 .suptitle {
@@ -94,14 +118,14 @@ background-color: var(--cloud);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--naviblue);
+  color: #2e2f42;
 }
 .section-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 .second-header {
   font-weight: 700;
@@ -109,17 +133,18 @@ background-color: var(--cloud);
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--naviblue);
+  color: #2e2f42;
 }
 
 /* footer */
+.footer {
+  background:#2e2f42;
+}
+
 .footer-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud);
-  }
-.footer{
-background-color: var(--naviblue);
+  color: #f4f4fd;
 }
