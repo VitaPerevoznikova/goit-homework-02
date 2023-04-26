@@ -8,7 +8,7 @@
 
 .links:hover,
 .links:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
   .none-header{
     opacity: 0;
@@ -16,7 +16,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color:#434455;
   background-color: #ffffff;
 
 }
@@ -37,7 +37,11 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em ;
+  text-transform: uppercase;
+  color: var(--iris);
+
 }
 .web-logo {
   color: #4d5ae5;
@@ -74,6 +78,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
   
 }
 
@@ -84,7 +89,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
-  background: #4d5ae5;
+  background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 15);
   border-radius: 4px;
   cursor: pointer;
@@ -121,6 +126,7 @@ background-color: #404bbf;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .section-description {
   font-weight: 400;
