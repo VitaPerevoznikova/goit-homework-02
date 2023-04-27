@@ -10,13 +10,10 @@
 .links:focus {
   color: #404bbf;
 }
-  .none-header{
-    opacity: 0;
-  }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color:#434455;
+  color:var(--slate);
   background-color: #ffffff;
 
 }
@@ -30,6 +27,8 @@ body {
   --cloud: #f4f4fd;
 
   --iris: #4d5ae5;
+  
+  --ocean: #404bbf;
 }
 
 /* Logotip */
@@ -43,8 +42,9 @@ body {
   color: var(--iris);
 
 }
-.web-logo {
-  color: #4d5ae5;
+.studio-logo {
+  color: var(--naviblue);
+
 }
 
 /* Header Navigation */
@@ -56,13 +56,13 @@ body {
   letter-spacing: 0.02em;
 }
 /* Adress  */
-.header-contacts { 
+.address-link { 
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  
+  color: var(--slate) ;
 
 }
 /* Main menu  */
@@ -88,36 +88,42 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
-  background: #404bbf;
+  background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 15);
   border-radius: 4px;
   cursor: pointer;
 }
 .button-hero:focus,
-.button-hero:active {
+.button-hero:hover {
 color: #ffffff;
 background-color: #404bbf;
 
 }
 .portfolio-button {
-  font-family: inherit;
+  font-family:'Roboto',sans-serif ;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
   cursor: pointer;
 }
 .portfolio-button:focus,
 .portfolio-button:hover {
   color: #ffffff;
-  background-color: #4d5ae5;
+  background-color: #404bbf;
 }
 
 /* Section 4 */
 .section-four {
   background-color: #f4f4fd;
+}
+.our-team-card{
+  background-color: #ffffff;
+
 }
 /* sections  */
 .suptitle {
@@ -125,15 +131,16 @@ background-color: #404bbf;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--naviblue);
   text-transform: capitalize;
 }
 .section-description {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
+
 }
 .second-header {
   font-weight: 700;
@@ -142,6 +149,7 @@ background-color: #404bbf;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 /* footer */
