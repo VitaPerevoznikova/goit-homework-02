@@ -42,7 +42,10 @@ body {
   color: var(--iris);
 
 }
-.studio-logo {
+.studio-logo-header{
+  color: var(--naviblue);
+}
+.studio-logo-footer{
   color: #f4f4fd;
 }
 
