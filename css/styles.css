@@ -43,8 +43,7 @@ body {
 
 }
 .studio-logo {
-  color: var(--naviblue);
-
+  color: #f4f4fd;
 }
 
 /* Header Navigation */
@@ -56,6 +55,9 @@ body {
   letter-spacing: 0.02em;
 }
 /* Adress  */
+.address-header{
+  font-style: normal;
+}
 .address-link { 
   font-style: normal;
   font-weight: 400;
@@ -101,6 +103,7 @@ color: #ffffff;
 background-color: #404bbf;
 
 }
+/* Portfolio  */
 .portfolio-button {
   font-family:'Roboto',sans-serif ;
   font-weight: 500;
@@ -116,6 +119,7 @@ background-color: #404bbf;
   color: #ffffff;
   background-color: #404bbf;
 }
+
 
 /* Section 4 */
 .section-four {
